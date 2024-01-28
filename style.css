@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Cormorant:ital@1&family=Poppins:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Cormorant:ital@1&family=Poppins:ital,wght@0,500;1,400&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Cormorant:ital@1&family=Dancing+Script:wght@600&family=Poppins:ital,wght@0,500;1,400&family=Rubik+Glitch+Pop&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+font-family: 'Arimo', sans-serif;
+
+}
+body{
+	 background-image: url('mukhtarLp.jpg');
+	 background-size: cover;
+	 background-attachment: fixed;
+	 background-position: right;
+	 background-repeat: no-repeat;
+}
+/* HEADER BACKGROUND*/
+header{
+	height: 60px;
+	display: flex;
+	border: solid 1px white;
+	border-left: none;
+	border-right: none;
+	padding: 0px 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+/* HEADER INPUT AREA*/
+.logo-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-box img{
+	 width: 40px;
+}
+.logo-box p{
+ 	font-size: 35px;
+	 font-weight: 900;
+	 padding-left: 20px;
+}
+
+ul li{
+	 font-size: 20px;
+	 display: inline-block;
+	 padding: 0px 30px;
+}
+
+ul li:hover{
+	 color: #fa7e1e;
+	 text-decoration: underline;
+}
+
+/*INFORMATION AREA PARAGRAPH*/
+.info-paragraph{
+ position: absolute;
+	top: 50%;
+	left: 100px;
+	transform: translate(-5% , -50%);
+}
+.info-paragraph .name{
+	 font-size: 60px;
+font-family: 'Dancing Script', cursive;
+	 
+}
+.info-paragraph h3{
+	font-size: 35px;
+	font-weight: 100;
+}
+
+.info-paragraph h1{
+	font-size: 70px;
+	color: #fa7e1e;
+font-family: 'Poppins', sans-serif;
+}
+
+/* HIRE ME BUTTON */
+button{
+ 	margin-top: 20px;
+ 	width: 100px;
+ 	height: 40px;
+	 color: #fa7e1e;
+	 font-weight: bold;
+	 background: transparent;
+	 border: solid 3px #fa7e1e;
+	 border-radius: 100px;
+	 }
+	 button:hover{
+	 color: #ffffff;
+	 font-weight: bold;
+	 background: #fa7e1e;
+	 border: solid 3px #ffffff;
+	 }
+
+/*RESPONSIVE FOR SMARTPHONE*/
+@media (Max-width:800px){
+   *{
+   	color: black;
+   }
+   body{
+   	background-image: url('mukhtarPh.jpg');
+   	background-size: cover;
+   	background-position: left;
+   	background-attachment: fixed;
+   	background-repeat: no-repeat;
+   }
+   ul li{
+     display: none;
+   }
+   header{
+   	padding: 0px 10px;
+   }
+   .logo-box p{
+   	font-size: 20px;
+   	padding-left: 10px;
+   }
+   
+   .info-paragraph{
+   	width: 60%;
+   	position: absolute;
+   	top: 50%;
+   	left: 100px;
+   	transform: translate(35% , -50%);
+    }
+    button{
+    	margin-top: 5px;
+    	width: 70px;
+    	height: 30px;
+    	color: #7498b6;
+    	border: solid 3px #7498b6;
+    }
+    button:hover{
+    	background: #7498b6;
+    }
+   
+  .info-paragraph .name{
+  	font-size: 18px;
+  }
+  .info-paragraph h3{
+     	font-size: 10px;
+   }
+
+ .info-paragraph h1{
+    	font-size: 20px;
+    	color: #7498b6;
+  }
+	
+}
+
+
+
+
